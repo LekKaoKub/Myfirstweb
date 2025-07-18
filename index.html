@@ -13,10 +13,18 @@
       width: 150px;
       margin-bottom: 20px;
     }
-    .icecream-image {
-      width: 300px;
+    .product {
+      display: inline-block;
       margin: 10px;
+    }
+    .icecream-image {
+      width: 250px;
       border-radius: 10px;
+    }
+    .price {
+      font-size: 18px;
+      color: #e67300;
+      margin-top: 8px;
     }
     .product-description {
       max-width: 600px;
@@ -29,12 +37,24 @@
 <body>
   <img src="logo.png" alt="Vanilla Bliss Logo" class="logo">
   <h1>ไอศกรีมวานิลลา Vanilla Bliss</h1>
-  
+
   <div class="product-description">
-    <p>สัมผัสรสชาติหวานนุ่มละมุนของวานิลลาแท้จากมาดากัสการ์ในทุกคำ ไอศกรีมของเราใช้วัตถุดิบธรรมชาติ 100% ไม่ใส่สารกันเสีย และผลิตสดใหม่ทุกวัน</p>
+    <p>รสวานิลลาแท้จากมาดากัสการ์ หวานละมุน กลมกล่อม ใช้วัตถุดิบธรรมชาติ 100% ผลิตสดใหม่ทุกวัน</p>
   </div>
 
-  <img src="vanilla1.jpg" alt="ไอศกรีมวานิลลา - มุมด้านหน้า" class="icecream-image">
-  <img src="vanilla2.jpg" alt="ไอศกรีมวานิลลา - มุมด้านบน" class="icecream-image">
+  <div class="product">
+    <img src="vanilla1.jpg" alt="มุมด้านหน้า" class="icecream-image">
+    <div class="price">ราคา 59 บาท</div>
+  </div>
+
+  <div class="product">
+    <img src="vanilla2.jpg" alt="มุมด้านบน" class="icecream-image">
+    <div class="price">ราคา 59 บาท</div>
+  </div>
+
+  <div class="product">
+    <img src="vanilla3.jpg" alt="ซูมใกล้เนื้อไอศกรีม" class="icecream-image">
+    <div class="price">ราคา 59 บาท</div>
+  </div>
 </body>
 </html>
