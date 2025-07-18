@@ -12,14 +12,26 @@
     .logo {
       width: 150px;
       margin-bottom: 20px;
+      border: 2px solid #f7c3d5;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    .product-wrapper {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-top: 20px;
     }
     .product {
-      display: inline-block;
-      margin: 10px;
+      width: 250px;
+      border-radius: 10px;
     }
     .icecream-image {
       width: 250px;
+      height: 180px;
+      object-fit: cover;
       border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     }
     .price {
       font-size: 18px;
@@ -32,6 +44,11 @@
       font-size: 18px;
       color: #4a4a4a;
     }
+    footer {
+      margin-top: 40px;
+      font-size: 14px;
+      color: #888;
+    }
   </style>
 </head>
 <body>
@@ -42,19 +59,25 @@
     <p>รสวานิลลาแท้จากมาดากัสการ์ หวานละมุน กลมกล่อม ใช้วัตถุดิบธรรมชาติ 100% ผลิตสดใหม่ทุกวัน</p>
   </div>
 
-  <div class="product">
-    <img src="ITIM1.jpg" alt="มุมด้านหน้า" class="icecream-image">
-    <div class="price">ราคา 59 บาท</div>
+  <div class="product-wrapper">
+    <div class="product">
+      <img src="ITIM1.jpg" alt="มุมด้านหน้า" class="icecream-image">
+      <div class="price">ราคา 59 บาท</div>
+    </div>
+
+    <div class="product">
+      <img src="ITIM4.jpg" alt="มุมด้านบน" class="icecream-image">
+      <div class="price">ราคา 59 บาท</div>
+    </div>
+
+    <div class="product">
+      <img src="ITIM3.jpg" alt="ซูมใกล้เนื้อไอศกรีม" class="icecream-image">
+      <div class="price">ราคา 59 บาท</div>
+    </div>
   </div>
 
-  <div class="product">
-    <img src="ITIM4.jpg" alt="มุมด้านบน" class="icecream-image">
-    <div class="price">ราคา 59 บาท</div>
-  </div>
-
-  <div class="product">
-    <img src="ITIM3.jpg" alt="ซูมใกล้เนื้อไอศกรีม" class="icecream-image">
-    <div class="price">ราคา 59 บาท</div>
-  </div>
+  <footer>
+    <p>จัดทำโดย: อนันยา | วันที่: 18 กรกฎาคม 2025</p>
+  </footer>
 </body>
 </html>
